@@ -1,45 +1,26 @@
 git-core Cookbook
 =================
-TODO: Enter the cookbook description here.
 
-e.g.
-This cookbook makes your favorite breakfast sandwich.
+This cookbook installs the `git-core` library.
 
 Requirements
 ------------
-TODO: List your cookbook requirements. Be sure to include any requirements this cookbook has on platforms, libraries, other cookbooks, packages, operating systems, etc.
+
+Ubuntu 12.04 and higher.
 
 e.g.
 #### packages
-- `toaster` - git-core needs toaster to brown your bagel.
+- `git-core` -
 
 Attributes
 ----------
-TODO: List your cookbook attributes here.
 
-e.g.
-#### git-core::default
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['git-core']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
+None.
 
 Usage
 -----
 #### git-core::default
-TODO: Write usage instructions for each cookbook.
 
-e.g.
 Just include `git-core` in your node's `run_list`:
 
 ```json
@@ -53,9 +34,7 @@ Just include `git-core` in your node's `run_list`:
 
 Contributing
 ------------
-TODO: (optional) If this is a public cookbook, detail the process for contributing. If this is a private cookbook, remove this section.
 
-e.g.
 1. Fork the repository on Github
 2. Create a named feature branch (like `add_component_x`)
 3. Write your change
@@ -65,4 +44,4 @@ e.g.
 
 License and Authors
 -------------------
-Authors: TODO: List authors
+Authors: Mohamad El-Husseini
